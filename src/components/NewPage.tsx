@@ -28,7 +28,7 @@ function NewPage_(props: NewPageProps, ref: HTMLElementRefOf<"div">) {
   // attaching the appropriate event handlers, etc.  You
   // can also install whatever React hooks you need here to manage state or
   // fetch data.
-  //
+  
   // Props you can pass into PlasmicNewPage are:
   // 1. Variants you want to activate,
   // 2. Contents for slots you want to fill,
