@@ -147,6 +147,50 @@
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
       ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "re8nw8rr5dZXN4F2oUPJNx",
+      "projectApiToken": "gACxFPukloGdsjw6XGSWNcHH7Ql7O7C3Z8UxVC4qDknLyjOtjjRYEysyoNJ0k7RGC5j7Yxe5BX1pDODCIzlhQ",
+      "projectName": "Website starter",
+      "version": "latest",
+      "cssFilePath": "plasmic/website_starter/plasmic_website_starter.module.css",
+      "components": [
+        {
+          "id": "f5RiIUx7UVBP",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "re8nw8rr5dZXN4F2oUPJNx",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "YtJFRWKi0doO",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "sMZKxMRDaf1y",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
       "customFunctions": []
     }
   ],
@@ -156,6 +200,12 @@
         "id": "lLkZv-7nwY4H",
         "name": "Screen",
         "projectId": "6yjfqP5Fduthu9Xyjdktxt",
+        "contextFilePath": "plasmic/website_starter/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "F_NVrdSMc7yj",
+        "name": "Screen",
+        "projectId": "re8nw8rr5dZXN4F2oUPJNx",
         "contextFilePath": "plasmic/website_starter/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
