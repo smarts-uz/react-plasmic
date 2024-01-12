@@ -44,6 +44,11 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: huwb-ruZ7M_w/
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: gi73gv_xuuh7/icon
 import Icon38Icon from "./icons/PlasmicIcon__Icon38"; // plasmic-import: m9toqnXI0__w/icon
 import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: KPMGdXh-_3zq/icon
+import Icon5Icon from "./icons/PlasmicIcon__Icon5"; // plasmic-import: UfHh6xhBEWa4/icon
+import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: zkcl38ZCjSCy/icon
+import Icon7Icon from "./icons/PlasmicIcon__Icon7"; // plasmic-import: snRMRRtIKcUV/icon
+import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: 9chO32XYpM4V/icon
+import Icon9Icon from "./icons/PlasmicIcon__Icon9"; // plasmic-import: 6s2VbVoQeyyQ/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: CclXYcwky_mZ/icon
 import Icon2Icon from "./icons/PlasmicIcon__Icon2"; // plasmic-import: vFYX7yHKgnYi/icon
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: e1L728FqTlpq/icon
@@ -64,6 +69,9 @@ export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   button?: p.Flex<"button">;
   foreground2?: p.Flex<"div">;
+  section?: p.Flex<"section">;
+  foreground?: p.Flex<"div">;
+  h2?: p.Flex<"h2">;
 };
 
 export interface DefaultHomepageProps {
@@ -1973,6 +1981,288 @@ function PlasmicHomepage__RenderFunc(props: {
               </p.Stack>
             </p.Stack>
           </p.Stack>
+          <section
+            data-plasmic-name={"section"}
+            data-plasmic-override={overrides.section}
+            className={classNames(projectcss.all, sty.section)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"foreground"}
+              data-plasmic-override={overrides.foreground}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.foreground)}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__xrKhX)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__jgWy0)}>
+                  <h2
+                    data-plasmic-name={"h2"}
+                    data-plasmic-override={overrides.h2}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2
+                    )}
+                  >
+                    {"Next-level"}
+                  </h2>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mIyEq
+                  )}
+                >
+                  {"Dui urna enim a tempus commodo adipiscing ullamcorper."}
+                </div>
+              </p.Stack>
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__dbIa7)}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__cUFr7)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__vmNcp)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__nGulh)}
+                    >
+                      <Icon5Icon
+                        className={classNames(projectcss.all, sty.svg__anwbg)}
+                        role={"img"}
+                      />
+                    </div>
+                    {false ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__f24M7
+                        )}
+                      >
+                        <Icon6Icon
+                          className={classNames(projectcss.all, sty.svg__uaC0P)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__suyWt)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__btsLd
+                        )}
+                      >
+                        {"Harder"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__gn1Ba
+                        )}
+                      >
+                        {
+                          "Nulla odio mauris enim parturient adipiscing vestibulum inceptos."
+                        }
+                      </div>
+                    </p.Stack>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__qnCp3)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__pqSe9)}
+                    >
+                      <Icon7Icon
+                        className={classNames(projectcss.all, sty.svg__r1X7B)}
+                        role={"img"}
+                      />
+                    </div>
+                    {false ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__j79Nk
+                        )}
+                      >
+                        <Icon6Icon
+                          className={classNames(projectcss.all, sty.svg__ionn7)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___2KHy5
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__hI7P
+                        )}
+                      >
+                        {"Better"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__t9HqE
+                        )}
+                      >
+                        {"Consequat scelerisque a eros taciti nisl a sodales."}
+                      </div>
+                    </p.Stack>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__cEmmc)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__b7I8L)}
+                    >
+                      <Icon8Icon
+                        className={classNames(projectcss.all, sty.svg__s0Odt)}
+                        role={"img"}
+                      />
+                    </div>
+                    {false ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__sJtBu
+                        )}
+                      >
+                        <Icon6Icon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___3HYjW
+                          )}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__gFQz)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__q7Esl
+                        )}
+                      >
+                        {"Faster"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__qtdym
+                        )}
+                      >
+                        {
+                          "Varius ad malesuada ullamcorper cursus scelerisque a a."
+                        }
+                      </div>
+                    </p.Stack>
+                  </p.Stack>
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__xpF7X)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__uf98X)}
+                    >
+                      <Icon9Icon
+                        className={classNames(projectcss.all, sty.svg__vt1Up)}
+                        role={"img"}
+                      />
+                    </div>
+                    {false ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__gn8MT
+                        )}
+                      >
+                        <Icon6Icon
+                          className={classNames(projectcss.all, sty.svg__sfYl4)}
+                          role={"img"}
+                        />
+                      </div>
+                    ) : null}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__g1A1W)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__u6J5Y
+                        )}
+                      >
+                        {"Stronger"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__oQek
+                        )}
+                      >
+                        {"Ut eu nam nostra taciti congue adipiscing curabitur."}
+                      </div>
+                    </p.Stack>
+                  </p.Stack>
+                </p.Stack>
+              </p.Stack>
+            </p.Stack>
+          </section>
+          <div className={classNames(projectcss.all, sty.freeBox__hsAlm)}>
+            <div className={classNames(projectcss.all, sty.freeBox__x84Af)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__y3Dni
+                )}
+              >
+                {"This is centered content, with a max width of 1080px."}
+              </div>
+            </div>
+          </div>
           <div className={classNames(projectcss.all, sty.freeBox__cjrM)}>
             <p.Stack
               as={"div"}
@@ -2410,9 +2700,12 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button", "foreground2"],
+  root: ["root", "button", "foreground2", "section", "foreground", "h2"],
   button: ["button"],
-  foreground2: ["foreground2"]
+  foreground2: ["foreground2"],
+  section: ["section", "foreground", "h2"],
+  foreground: ["foreground", "h2"],
+  h2: ["h2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2421,6 +2714,9 @@ type NodeDefaultElementType = {
   root: "div";
   button: "button";
   foreground2: "div";
+  section: "section";
+  foreground: "div";
+  h2: "h2";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2485,6 +2781,9 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     button: makeNodeComponent("button"),
     foreground2: makeNodeComponent("foreground2"),
+    section: makeNodeComponent("section"),
+    foreground: makeNodeComponent("foreground"),
+    h2: makeNodeComponent("h2"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
